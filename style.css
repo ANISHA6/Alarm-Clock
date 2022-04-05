@@ -1,0 +1,141 @@
+ 
+body{
+   background-color:darkgray;
+   margin-top: 3%;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 350px;
+   margin-right: 350px;
+  
+}
+  
+
+/* setting background color for main container */
+.main-container{
+   background-color: #212121;
+    
+} 
+
+.container{
+    align-content: center;
+    text-align: center;
+}
+
+/* styling for digital clock section */
+.time-display{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    width: 661px;
+    height: 10%;
+    padding-right: 5px; 
+    border-bottom: dashed;
+
+}
+
+
+.timer{
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    margin-right: 12px;
+}
+
+#clock{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.set-alarm:hover{
+    cursor: pointer; 
+} 
+.clear-alarm:hover{
+    cursor:pointer;
+}
+
+.alarm-heading{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -0.5px;
+   
+}
+h3{
+    font-size:1.8rem
+}
+
+
+.set-alarm-field{
+    margin-top: -20px;
+    height: 40px;
+   
+    padding-top: 0px;
+}
+
+.controls button{
+    background-color:  #336d62;
+    color: whitesmoke;
+    width: 105px;
+    height: 35px;
+    font-size: 0.8rem;
+    font-weight:500;
+}
+
+
+
+.controls button:hover{
+   background-color:#224941;
+ 
+
+}
+
+#myList{
+    list-style-type: none;
+    
+}
+
+#myList li{
+   
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color:#224941;
+    height: 2rem;
+    margin-left: -40px;
+    padding-top: 8px;
+    width: 666px;
+    margin-bottom: 10px;
+
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+
+.time-list span{
+   
+    width: 160px;
+    margin-right: 18px;
+    margin-left: 1px;
+    
+}
+
+.time-list button{
+     background-color:  #336d62;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 25px;
+    color: whitesmoke;
+} 
+.time-list button:hover{
+    cursor: pointer;
+    background-color:#212121;
+
+}
+
+
